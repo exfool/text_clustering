@@ -45,7 +45,7 @@ Clustering:
 1. Tokenizing with `nltk.word_tokenize` and Stemming with `SnowballStemmer("english")`
 2. Extracting tf-idf features with `TfidfVectorizer`
 3. Add hand-crafted features and scale like `[count: chars, words, lines, dots, questions...]`
-4. Compute cosine documents similarity
+4. Compute `cosine` documents similarity
 5. Apply  `K-means` and `AffinityPropagation` methods to cosine distances
 6. `TSNE` transformation for 2D visualization
 
@@ -61,7 +61,7 @@ TSNE transformation of cosine distances to visualization into 2D surface with pa
 
 Parameters: 6 clusters, 5000 maximum number of iterations
 
-examples of text in cluster [report/K_means.txt][report/K_means.txt]
+examples of text in cluster [report/K_means.txt](report/K_means.txt)
 
 ![km](report/km.png)
 
@@ -69,6 +69,6 @@ examples of text in cluster [report/K_means.txt][report/K_means.txt]
 
 Parameters: 0.6 damping, -100 preference, 5000 maximum number of iterations
 
-examples of text in cluster [report/AffinityPropagation.txt][report/AffinityPropagation.txt]
+examples of text in cluster [report/AffinityPropagation.txt](report/AffinityPropagation.txt)
 
 ![af](report/af.png)
