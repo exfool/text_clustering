@@ -56,7 +56,7 @@ TSNE transformation of cosine distances to visualization into 2D surface with pa
 
 ​	`n_iter_without_progress=100, n_iter=5000, method='exact'`
 
-##### K-mean
+#### K-mean
 
 Parameters: 6 clusters, 5000 maximum number of iterations
 
@@ -64,7 +64,7 @@ examples of text in cluster [report/K_means.txt](report/K_means.txt)
 
 ![km](report/km.png)
 
-##### AffinityPropagation
+#### AffinityPropagation
 
 Parameters: 0.6 damping, -100 preference, 5000 maximum number of iterations
 
