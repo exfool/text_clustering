@@ -18,6 +18,7 @@
 - `crawler.py` - web spider that crawl the quotes from `http://bash.org/?browse&p=01` pages; also you can specify your setting at head script: `#Shortcuts of settings for crawler`
 - `clustering.ipynb` - iPython notebook for clustering short-jokes
 - `requirements.txt` - requirement packages of project for python
+- `/report` - directory for report's data
 
 ### Usage for linux
 
