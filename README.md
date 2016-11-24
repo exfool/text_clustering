@@ -33,9 +33,9 @@ Crawler:
 
 Clustering:
 
-- `python -m nltk.downloader all -d ~/nltk_data` - install [nltk][http://www.nltk.org/data.html] packages
+- `python -m nltk.downloader all -d ~/nltk_data` - install [nltk](http://www.nltk.org/data.html) packages
 - `docker run -d -p 8888:8888 -v $(pwd):/home/ds/notebooks -v ~/nltk_data:/usr/share/nltk_data dataquestio/python3-starter`  - run from project directory
-- `http://localhost:8888/notebooks/clustering.ipynb` - jump to [ this link][http://localhost:8888/notebooks/clustering.ipynb] in your browser
+- `http://localhost:8888/notebooks/clustering.ipynb` - jump to [ this link](http://localhost:8888/notebooks/clustering.ipynb) in your browser
 
 
 
