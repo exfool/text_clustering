@@ -9,7 +9,7 @@
 
 ### Requirements
 
-- Programming language, - Python
+- Programming language: Python
 - Language of documents: Russian or English
 - A small set of clusters
 
